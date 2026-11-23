@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1260" width="2400" height="1260">
+  <defs>
+    <radialGradient id="bgGrad" cx="38%" cy="32%" r="78%">
+      <stop offset="0%" stop-color="#174e59" />
+      <stop offset="48%" stop-color="#0b242c" />
+      <stop offset="100%" stop-color="#040c10" />
+    </radialGradient>
+    <radialGradient id="goldAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.32" />
+      <stop offset="60%" stop-color="#d97706" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#78350f" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991b1b" />
+      <stop offset="55%" stop-color="#7f1d1d" />
+      <stop offset="100%" stop-color="#450a0a" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="tileGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="100%" stop-color="#fde68a" />
+    </linearGradient>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+  </defs>
+
+  <!-- Nền chính Hoàng Cung Ngọc Lục Bảo -->
+  <rect width="2400" height="1260" fill="url(#bgGrad)" />
+  <circle cx="480" cy="600" r="560" fill="url(#goldAura)" />
+  <circle cx="1850" cy="480" r="640" fill="url(#goldAura)" />
+
+  <!-- Họa tiết Trống Đồng Đông Sơn chìm lớn bên phải -->
+  <g transform="translate(1880, 560)" opacity="0.16">
+    <circle cx="0" cy="0" r="520" fill="none" stroke="#fbbf24" stroke-width="6" />
+    <circle cx="0" cy="0" r="460" fill="none" stroke="#fbbf24" stroke-width="3" stroke-dasharray="14 10" />
+    <circle cx="0" cy="0" r="380" fill="none" stroke="#fbbf24" stroke-width="5" />
+    <circle cx="0" cy="0" r="280" fill="none" stroke="#fbbf24" stroke-width="4" />
+    <circle cx="0" cy="0" r="180" fill="none" stroke="#fbbf24" stroke-width="3" stroke-dasharray="10 8" />
+    <circle cx="0" cy="0" r="95" fill="#fbbf24" fill-opacity="0.25" stroke="#fde047" stroke-width="5" />
+    <line x1="-520" y1="0" x2="520" y2="0" stroke="#fbbf24" stroke-width="2" />
+    <line x1="0" y1="-520" x2="0" y2="520" stroke="#fbbf24" stroke-width="2" />
+    <line x1="-368" y1="-368" x2="368" y2="368" stroke="#fbbf24" stroke-width="2" />
+    <line x1="-368" y1="368" x2="368" y2="-368" stroke="#fbbf24" stroke-width="2" />
+  </g>
+
+  <!-- Khung viền cung đình mạ vàng -->
+  <rect x="44" y="44" width="2312" height="1172" rx="48" fill="none" stroke="#fbbf24" stroke-opacity="0.38" stroke-width="4" />
+  <rect x="64" y="64" width="2272" height="1132" rx="36" fill="none" stroke="#fbbf24" stroke-opacity="0.16" stroke-width="2" />
+
+  <!-- CỘT TRÁI: Biểu tượng 3D Squircle Trường Thi Chữ Việt -->
+  <g transform="translate(160, 250)" filter="url(#dropShadow)">
+    <rect x="0" y="0" width="540" height="540" rx="118" fill="url(#iconGrad)" stroke="url(#goldGrad)" stroke-width="10" />
+    <rect x="26" y="26" width="488" height="488" rx="96" fill="none" stroke="#fde047" stroke-opacity="0.32" stroke-width="3" />
+
+    <!-- Vòng Trống Đồng trong Icon -->
+    <circle cx="270" cy="240" r="175" fill="none" stroke="#fbbf24" stroke-opacity="0.35" stroke-width="4" stroke-dasharray="10 8" />
+    <circle cx="270" cy="240" r="135" fill="none" stroke="#fbbf24" stroke-opacity="0.25" stroke-width="3" />
+
+    <!-- 3 Ô chữ nổi 3D tượng trưng CHỮ VIỆT -->
+    <g transform="translate(68, 130)">
+      <rect x="0" y="20" width="122" height="136" rx="24" fill="#b45309" />
+      <rect x="0" y="10" width="122" height="136" rx="24" fill="url(#tileGrad)" stroke="#f59e0b" stroke-width="4" />
+      <text x="61" y="102" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="76" font-weight="900" fill="#7f1d1d">K</text>
+
+      <rect x="141" y="10" width="122" height="136" rx="24" fill="#b45309" />
+      <rect x="141" y="0" width="122" height="136" rx="24" fill="url(#tileGrad)" stroke="#f59e0b" stroke-width="4" />
+      <text x="202" y="92" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="76" font-weight="900" fill="#7f1d1d">Ỳ</text>
+
+      <rect x="282" y="20" width="122" height="136" rx="24" fill="#b45309" />
+      <rect x="282" y="10" width="122" height="136" rx="24" fill="url(#tileGrad)" stroke="#f59e0b" stroke-width="4" />
+      <text x="343" y="102" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="76" font-weight="900" fill="#7f1d1d">T</text>
+    </g>
+
+    <!-- Dải cuốn thư đỏ vàng dưới chân Icon -->
+    <rect x="75" y="348" width="390" height="104" rx="26" fill="#064e3b" stroke="#fde047" stroke-width="5" />
+    <text x="270" y="415" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="48" font-weight="900" fill="#fef08a" letter-spacing="3">CHỮ VIỆT</text>
+  </g>
+
+  <!-- CỘT PHẢI: Typography & Điểm nhấn tính năng -->
+  <g transform="translate(770, 255)">
+    <!-- Huy hiệu hệ sinh thái -->
+    <rect x="0" y="0" width="840" height="58" rx="29" fill="#064e3b" fill-opacity="0.85" stroke="#fbbf24" stroke-width="2.5" />
+    <text x="420" y="38" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="24" font-weight="800" fill="#fde047" letter-spacing="2">✦ TIKTOK LIVE INTERACTIVE GAME SHOW · PORT 4015 ✦</text>
+
+    <!-- Tên dự án lớn 2 tông màu -->
+    <text x="0" y="175" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="108" font-weight="900" fill="url(#goldGrad)">KỲ TÀI CHỮ VIỆT</text>
+    <text x="0" y="250" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="37" font-weight="800" fill="#a7f3d0">Trường Thi Chữ Nghĩa, Ca Dao Tục Ngữ &amp; Đại Chiến Soạn Từ 100% Tự Động</text>
+
+    <!-- Mô tả ngắn -->
+    <text x="0" y="325" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="30" font-weight="500" fill="#e2e8f0">
+      Khán giả bình luận trực tiếp trên khung chat TikTok để ghép chữ, sửa lỗi chính tả, điền ca dao,
+    </text>
+    <text x="0" y="370" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="30" font-weight="500" fill="#e2e8f0">
+      xếp thành ngữ, mở 10 ô kho báu từ vựng &amp; đại chiến 3 miền Bắc · Trung · Nam thời gian thực!
+    </text>
+
+    <!-- 4 Feature Pills (Rộng >= 340px, căn giữa text-anchor="middle") -->
+    <g transform="translate(0, 435)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="335" height="74" rx="20" fill="#1e293b" fill-opacity="0.9" stroke="#fbbf24" stroke-width="2.5" />
+      <text x="167.5" y="46" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="26" font-weight="800" fill="#fef08a">🏮 4 Vòng Thi Văn Hóa</text>
+
+      <!-- Pill 2 -->
+      <rect x="355" y="0" width="365" height="74" rx="20" fill="#1e293b" fill-opacity="0.9" stroke="#34d399" stroke-width="2.5" />
+      <text x="537.5" y="46" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="26" font-weight="800" fill="#a7f3d0">🏛️ 5 Tranh Nền Di Sản</text>
+
+      <!-- Pill 3 -->
+      <rect x="740" y="0" width="345" height="74" rx="20" fill="#1e293b" fill-opacity="0.9" stroke="#38bdf8" stroke-width="2.5" />
+      <text x="912.5" y="46" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="26" font-weight="800" fill="#bae6fd">⏱️ Bù Trễ Sóng Live</text>
+
+      <!-- Pill 4 -->
+      <rect x="1105" y="0" width="340" height="74" rx="20" fill="#1e293b" fill-opacity="0.9" stroke="#f472b6" stroke-width="2.5" />
+      <text x="1275" y="46" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="26" font-weight="800" fill="#fbcfe8">🎓 Học Giả MC AI 1.55×</text>
+    </g>
+  </g>
+
+  <!-- Dải Footer Tác Giả -->
+  <line x1="120" y1="1085" x2="2280" y2="1085" stroke="#fbbf24" stroke-opacity="0.28" stroke-width="2" />
+  <text x="1200" y="1148" text-anchor="middle" font-family="'Segoe UI', 'Be Vietnam Pro', sans-serif" font-size="30" font-weight="700" fill="#fde68a" letter-spacing="1.5">
+    Designed &amp; Engineered by Duong Birken • https://duongbirken.deta.vn • LIVE-CHUVIET-TIKTOK
+  </text>
+</svg>
