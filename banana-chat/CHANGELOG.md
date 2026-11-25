@@ -4,6 +4,15 @@ Các thay đổi đáng chú ý của **Banana Chat**. Theo [Semantic Versioning
 
 ---
 
+## [1.1.1] - 2026-11-25
+
+### Fixed & Added — Thay sạch Icon chữ `Z` cũ trong `.ico`/PWA & Thêm nút Làm mới (`↻`) trong Cửa sổ App
+- **Loại bỏ triệt để logo chữ `Z` cũ (`banana-bubble.ico`, `favicon.ico`, `icon.ico`, `pwa-*.svg`)**: Tái tạo toàn bộ file `.ico` đa độ phân giải (`16x16` → `256x256`) từ hình gốc **Banana Bubble**, xóa toàn bộ file `zalocrm*` / `stepwell*` tồn dư, và cấp mã định danh PWA mới (`id: "/?app=banana-chat"`, `?v=111`) để nút `Open in app` của Chrome/Edge hiển thị đúng biểu tượng quả chuối.
+- **Nút Làm mới trang (`↻`) trong cửa sổ App (`DefaultLayout.vue`)**: Khi người dùng đã mở trong chế độ ứng dụng độc lập (`Mở như app` hoặc `Banana-Chat.exe`, nơi không có thanh địa chỉ trình duyệt), vị trí nút *Mở như app* tự động chuyển thành nút **`↻` (Làm mới)** tiện lợi bằng chuột.
+- **Biên dịch lại `Banana-Chat.exe` (`v1.1.1`)**: Nhúng biểu tượng `.ico` Banana Chat mới trực tiếp vào file thực thi Windows.
+
+---
+
 ## [1.1.0] - 2026-11-25
 
 ### Added & Fixed — Nút `Mở như app` (Chuẩn Banana-OS) & Kiểm tra Phiên bản 3 Tầng Không Cần `GITHUB_TOKEN`
