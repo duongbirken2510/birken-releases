@@ -4,6 +4,16 @@ Các thay đổi đáng chú ý của **Banana Chat**. Theo [Semantic Versioning
 
 ---
 
+## [1.1.2] - 2026-11-25
+
+### Fixed & Added — Hiệu ứng Nhân vật Banana Chat khi Tải tin cũ & Khóa cứng Vị trí Đọc (Chống Nhảy về Đáy)
+- **Pill nổi Nhân vật Banana Chat khi cuộn lên tải lịch sử (`MessageThread.vue`, `use-chat.ts`)**: Hiển thị biểu tượng linh vật **Banana Chat** nhún nhảy mượt mà kèm vòng sáng vàng-ngọc và dòng chữ *"Đang tải tin nhắn cũ hơn..."* ngay mép trên khung chat (0px xê dịch bố cục, thời lượng hiển thị tối thiểu `380ms` mượt mắt không chớp giật).
+- **Khóa cứng vị trí tin nhắn đang đọc — Chặn dứt điểm lỗi nhảy về tin mới nhất (`MessageThread.vue`, `scroll-anchor-rules.ts`, `ChatView.vue`)**:
+  - Neo chính xác tọa độ phần tử DOM (`data-msg-id`) đầu tiên đang nằm trong tầm mắt người dùng trước và sau khi chèn gói tin nhắn cũ, kết hợp khóa tạm `overflow-anchor` để khung nhìn đứng yên tuyệt đối tại dòng đang đọc.
+  - Tách riêng `refreshConversationDetail()` cho sự kiện nền `zalo-labels-synced` để không gọi lại `fetchMessages()` làm mất các trang tin cũ vừa tải; hủy ngay các hẹn giờ `scrollToBottom()` khi người dùng chủ động lăn chuột lên; và hiển thị nút nổi **`↓ Có N tin nhắn mới`** khi có tin realtime mới đến lúc đang đọc tin cũ trên cao (đồng bộ cả giao diện Mobile `MobileChatView.vue`).
+
+---
+
 ## [1.1.1] - 2026-11-25
 
 ### Fixed & Added — Thay sạch Icon chữ `Z` cũ trong `.ico`/PWA & Thêm nút Làm mới (`↻`) trong Cửa sổ App
