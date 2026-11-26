@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "https://github.com/duongbirken2510/birken-releases",
-  "updatedAt": "2026-11-26T17:35:14.147Z",
+  "updatedAt": "2026-11-26T17:53:56.817Z",
   "apps": {
     "ai-livestream": {
       "appCode": "ai-livestream",
@@ -79,6 +79,20 @@
       "patchUrl": "",
       "requiresFullInstaller": true,
       "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click (.EXE · Port 4012)."
+    },
+    "live-worldmap-3d": {
+      "appCode": "live-worldmap-3d",
+      "appName": "Năm Châu Bốn Bể 3D · World Earth Live",
+      "tier": "FREE_0D",
+      "latestVersion": "1.0.0",
+      "releaseDate": "2026-11-26",
+      "tag": "worldmap3d-v1.0.0",
+      "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/worldmap3d-v1.0.0/Nam-Chau-Bon-Be-3D-Setup-v1.0.0.exe",
+      "patchUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/worldmap3d-v1.0.0/worldmap3d-patch-v1.0.0.zip",
+      "patchSha256": "4157551ba37d99f5b791a6cf77db8d530187e25381758d1df5dbb312b9edadc7",
+      "requiresFullInstaller": false,
+      "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click Năm Châu Bốn Bể 3D (249.2 MB · Port 4017 · Miễn Phí 0đ · Quả Địa Cầu Vệ Tinh Google Earth · 195 Quốc Gia & Mọi Thành Phố · 644 MP3 Offline + System Tray Guardian v2).",
+      "updatedAt": "2026-11-26T17:53:56.817Z"
     }
   },
   "ai-livestream": {
@@ -157,5 +171,19 @@
     "patchUrl": "",
     "requiresFullInstaller": true,
     "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click (.EXE · Port 4012)."
+  },
+  "live-worldmap-3d": {
+    "appCode": "live-worldmap-3d",
+    "appName": "Năm Châu Bốn Bể 3D · World Earth Live",
+    "tier": "FREE_0D",
+    "latestVersion": "1.0.0",
+    "releaseDate": "2026-11-26",
+    "tag": "worldmap3d-v1.0.0",
+    "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/worldmap3d-v1.0.0/Nam-Chau-Bon-Be-3D-Setup-v1.0.0.exe",
+    "patchUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/worldmap3d-v1.0.0/worldmap3d-patch-v1.0.0.zip",
+    "patchSha256": "4157551ba37d99f5b791a6cf77db8d530187e25381758d1df5dbb312b9edadc7",
+    "requiresFullInstaller": false,
+    "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click Năm Châu Bốn Bể 3D (249.2 MB · Port 4017 · Miễn Phí 0đ · Quả Địa Cầu Vệ Tinh Google Earth · 195 Quốc Gia & Mọi Thành Phố · 644 MP3 Offline + System Tray Guardian v2).",
+    "updatedAt": "2026-11-26T17:53:56.817Z"
   }
 }
