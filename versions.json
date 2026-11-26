@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "https://github.com/duongbirken2510/birken-releases",
-  "updatedAt": "2026-11-26T02:27:47.986Z",
+  "updatedAt": "2026-11-26T04:07:36.018Z",
   "apps": {
     "ai-livestream": {
       "appCode": "ai-livestream",
@@ -11,11 +11,11 @@
       "tag": "ailive-v1.2.8",
       "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/ailive-v1.2.8/AI-Livestream-Studio-Pro-v1.2.8-Setup.exe",
       "patchUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/ailive-v1.2.8/ailive-patch-v1.2.8.zip",
-      "patchSha256": "3a6b9a30d227d81bda30c8f3c8d5ab92836c367713bbdef826020c06e1554131",
-      "patchSizeBytes": 1322950,
+      "patchSha256": "bc2d9fe22054d849b535e5f65e5c4819c290e99b00b34c0d63529d16d0ff91d2",
+      "patchSizeBytes": 1322949,
       "requiresFullInstaller": false,
       "releaseNotes": "Phiên bản v1.2.8: Hỗ trợ cập nhật tự động 1-chạm ngay trong ứng dụng (In-App 1-Click OTA & Auto-Restart), mã Gemini API Key (AQ... & AIza...), kết nối tức thì gemini-3.5-flash / gemini-3.6-flash và Đăng nhập Google 1-Chạm (OAuth 2.0).",
-      "updatedAt": "2026-11-26T02:27:47.459Z",
+      "updatedAt": "2026-11-26T04:07:35.271Z",
       "tier": "PRO_99K"
     },
     "live-chu-viet": {
@@ -87,11 +87,11 @@
     "tag": "ailive-v1.2.8",
     "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/ailive-v1.2.8/AI-Livestream-Studio-Pro-v1.2.8-Setup.exe",
     "patchUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/ailive-v1.2.8/ailive-patch-v1.2.8.zip",
-    "patchSha256": "3a6b9a30d227d81bda30c8f3c8d5ab92836c367713bbdef826020c06e1554131",
-    "patchSizeBytes": 1322950,
+    "patchSha256": "bc2d9fe22054d849b535e5f65e5c4819c290e99b00b34c0d63529d16d0ff91d2",
+    "patchSizeBytes": 1322949,
     "requiresFullInstaller": false,
     "releaseNotes": "Phiên bản v1.2.8: Hỗ trợ cập nhật tự động 1-chạm ngay trong ứng dụng (In-App 1-Click OTA & Auto-Restart), mã Gemini API Key (AQ... & AIza...), kết nối tức thì gemini-3.5-flash / gemini-3.6-flash và Đăng nhập Google 1-Chạm (OAuth 2.0).",
-    "updatedAt": "2026-11-26T02:27:47.459Z",
+    "updatedAt": "2026-11-26T04:07:35.271Z",
     "tier": "PRO_99K"
   },
   "live-chu-viet": {
