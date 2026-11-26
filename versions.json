@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "https://github.com/duongbirken2510/birken-releases",
-  "updatedAt": "2026-11-26T02:26:00.439Z",
+  "updatedAt": "2026-11-26T02:27:47.986Z",
   "apps": {
     "ai-livestream": {
       "appCode": "ai-livestream",
@@ -11,11 +11,72 @@
       "tag": "ailive-v1.2.8",
       "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/ailive-v1.2.8/AI-Livestream-Studio-Pro-v1.2.8-Setup.exe",
       "patchUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/ailive-v1.2.8/ailive-patch-v1.2.8.zip",
-      "patchSha256": "a44bf215da0ed346ed0f99a7111162252322855759909504099f20e28a1e9217",
-      "patchSizeBytes": 1322949,
+      "patchSha256": "3a6b9a30d227d81bda30c8f3c8d5ab92836c367713bbdef826020c06e1554131",
+      "patchSizeBytes": 1322950,
       "requiresFullInstaller": false,
       "releaseNotes": "Phiên bản v1.2.8: Hỗ trợ cập nhật tự động 1-chạm ngay trong ứng dụng (In-App 1-Click OTA & Auto-Restart), mã Gemini API Key (AQ... & AIza...), kết nối tức thì gemini-3.5-flash / gemini-3.6-flash và Đăng nhập Google 1-Chạm (OAuth 2.0).",
-      "updatedAt": "2026-11-26T02:25:59.916Z"
+      "updatedAt": "2026-11-26T02:27:47.459Z",
+      "tier": "PRO_99K"
+    },
+    "live-chu-viet": {
+      "appCode": "live-chu-viet",
+      "appName": "Kỳ Tài Chữ Việt Pro",
+      "tier": "PRO_99K",
+      "latestVersion": "1.0.1",
+      "releaseDate": "2026-11-25",
+      "tag": "chuviet-v1.0.1",
+      "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/chuviet-v1.0.1/Ky-Tai-Chu-Viet-Setup-v1.0.1.exe",
+      "patchUrl": "",
+      "requiresFullInstaller": true,
+      "releaseNotes": "Phiên bản v1.0.1: Tự động cập nhật 1-Click & cố định mã máy HWID."
+    },
+    "live-dua-xe": {
+      "appCode": "live-dua-xe",
+      "appName": "Đấu Trường Tay Đua Tri Thức 3D Pro",
+      "tier": "PRO_99K",
+      "latestVersion": "1.0.1",
+      "releaseDate": "2026-11-25",
+      "tag": "duaxe-v1.0.1",
+      "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/duaxe-v1.0.1/Dau-Truong-Tay-Dua-3D-Setup-v1.0.1.exe",
+      "patchUrl": "",
+      "requiresFullInstaller": true,
+      "releaseNotes": "Phiên bản v1.0.1: Bộ cài đặt Windows 1-Click (.EXE · Port 4022)."
+    },
+    "live-trang-nguyen": {
+      "appCode": "live-trang-nguyen",
+      "appName": "Ai Là Trạng Nguyên",
+      "tier": "FREE",
+      "latestVersion": "1.0.0",
+      "releaseDate": "2026-11-23",
+      "tag": "trangnguyen-v1.0.0",
+      "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/trangnguyen-v1.0.0/Ai-La-Trang-Nguyen-Setup-v1.0.exe",
+      "patchUrl": "",
+      "requiresFullInstaller": true,
+      "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click (.EXE · Port 3007 · Miễn Phí 0đ)."
+    },
+    "live-class": {
+      "appCode": "live-class",
+      "appName": "LIVE-CLASS Lớp Học AI 34 Môn",
+      "tier": "FREE",
+      "latestVersion": "1.0.0",
+      "releaseDate": "2026-11-23",
+      "tag": "liveclass-v1.0.0",
+      "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/liveclass-v1.0.0/Lop-Hoc-AI-34-Mon-Setup-v1.0.exe",
+      "patchUrl": "",
+      "requiresFullInstaller": true,
+      "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click (.EXE · Port 3006 · Miễn Phí 0đ)."
+    },
+    "live-ban-do": {
+      "appCode": "live-ban-do",
+      "appName": "Việt Nam Đất Nước Ta Ơi",
+      "tier": "FREE",
+      "latestVersion": "1.0.0",
+      "releaseDate": "2026-11-23",
+      "tag": "bando-v1.0.0",
+      "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/bando-v1.0.0/Viet-Nam-Dat-Nuoc-Ta-Oi-Setup-v1.0.exe",
+      "patchUrl": "",
+      "requiresFullInstaller": true,
+      "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click (.EXE · Port 4012)."
     }
   },
   "ai-livestream": {
@@ -26,10 +87,71 @@
     "tag": "ailive-v1.2.8",
     "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/ailive-v1.2.8/AI-Livestream-Studio-Pro-v1.2.8-Setup.exe",
     "patchUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/ailive-v1.2.8/ailive-patch-v1.2.8.zip",
-    "patchSha256": "a44bf215da0ed346ed0f99a7111162252322855759909504099f20e28a1e9217",
-    "patchSizeBytes": 1322949,
+    "patchSha256": "3a6b9a30d227d81bda30c8f3c8d5ab92836c367713bbdef826020c06e1554131",
+    "patchSizeBytes": 1322950,
     "requiresFullInstaller": false,
     "releaseNotes": "Phiên bản v1.2.8: Hỗ trợ cập nhật tự động 1-chạm ngay trong ứng dụng (In-App 1-Click OTA & Auto-Restart), mã Gemini API Key (AQ... & AIza...), kết nối tức thì gemini-3.5-flash / gemini-3.6-flash và Đăng nhập Google 1-Chạm (OAuth 2.0).",
-    "updatedAt": "2026-11-26T02:25:59.916Z"
+    "updatedAt": "2026-11-26T02:27:47.459Z",
+    "tier": "PRO_99K"
+  },
+  "live-chu-viet": {
+    "appCode": "live-chu-viet",
+    "appName": "Kỳ Tài Chữ Việt Pro",
+    "tier": "PRO_99K",
+    "latestVersion": "1.0.1",
+    "releaseDate": "2026-11-25",
+    "tag": "chuviet-v1.0.1",
+    "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/chuviet-v1.0.1/Ky-Tai-Chu-Viet-Setup-v1.0.1.exe",
+    "patchUrl": "",
+    "requiresFullInstaller": true,
+    "releaseNotes": "Phiên bản v1.0.1: Tự động cập nhật 1-Click & cố định mã máy HWID."
+  },
+  "live-dua-xe": {
+    "appCode": "live-dua-xe",
+    "appName": "Đấu Trường Tay Đua Tri Thức 3D Pro",
+    "tier": "PRO_99K",
+    "latestVersion": "1.0.1",
+    "releaseDate": "2026-11-25",
+    "tag": "duaxe-v1.0.1",
+    "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/duaxe-v1.0.1/Dau-Truong-Tay-Dua-3D-Setup-v1.0.1.exe",
+    "patchUrl": "",
+    "requiresFullInstaller": true,
+    "releaseNotes": "Phiên bản v1.0.1: Bộ cài đặt Windows 1-Click (.EXE · Port 4022)."
+  },
+  "live-trang-nguyen": {
+    "appCode": "live-trang-nguyen",
+    "appName": "Ai Là Trạng Nguyên",
+    "tier": "FREE",
+    "latestVersion": "1.0.0",
+    "releaseDate": "2026-11-23",
+    "tag": "trangnguyen-v1.0.0",
+    "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/trangnguyen-v1.0.0/Ai-La-Trang-Nguyen-Setup-v1.0.exe",
+    "patchUrl": "",
+    "requiresFullInstaller": true,
+    "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click (.EXE · Port 3007 · Miễn Phí 0đ)."
+  },
+  "live-class": {
+    "appCode": "live-class",
+    "appName": "LIVE-CLASS Lớp Học AI 34 Môn",
+    "tier": "FREE",
+    "latestVersion": "1.0.0",
+    "releaseDate": "2026-11-23",
+    "tag": "liveclass-v1.0.0",
+    "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/liveclass-v1.0.0/Lop-Hoc-AI-34-Mon-Setup-v1.0.exe",
+    "patchUrl": "",
+    "requiresFullInstaller": true,
+    "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click (.EXE · Port 3006 · Miễn Phí 0đ)."
+  },
+  "live-ban-do": {
+    "appCode": "live-ban-do",
+    "appName": "Việt Nam Đất Nước Ta Ơi",
+    "tier": "FREE",
+    "latestVersion": "1.0.0",
+    "releaseDate": "2026-11-23",
+    "tag": "bando-v1.0.0",
+    "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/bando-v1.0.0/Viet-Nam-Dat-Nuoc-Ta-Oi-Setup-v1.0.exe",
+    "patchUrl": "",
+    "requiresFullInstaller": true,
+    "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click (.EXE · Port 4012)."
   }
 }
