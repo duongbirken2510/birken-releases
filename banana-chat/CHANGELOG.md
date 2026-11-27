@@ -4,6 +4,21 @@ Các thay đổi đáng chú ý của **Banana Chat**. Theo [Semantic Versioning
 
 ---
 
+## [1.1.5] - 2026-11-27
+
+### Added — Thông báo Đẩy Màn hình khóa iPhone (iOS 16.4+) / Android / Web Push (`VAPID`) 100% Miễn phí
+- **Tự động cấp khóa VAPID & Điều phối Web Push bảo mật theo phân quyền (`web-push-service.ts`, `web-push-routes.ts`, `emit-chat.ts`)**:
+  - Tự sinh cặp khóa ECDSA P-256 (`VAPID`) ngay lần khởi động đầu tiên và mã hóa khóa bí mật `AES-256-GCM` lưu bền trong PostgreSQL (`web_push_vapid_keys`) — không cần chỉnh sửa file `.env` khi cập nhật Docker trên VPS.
+  - Bộ lọc chống SSRF tuyệt đối: chỉ chấp nhận endpoint `HTTPS` cổng `443` của Apple (`*.push.apple.com`), Google FCM, Mozilla Autopush và Windows WNS; tự động dọn sạch các thiết bị đã gỡ app (`404` / `410`).
+  - Tôn trọng 100% phân quyền nick Zalo (`resolveAuthorizedZaloRecipients`) và chế độ **Riêng tư** (`privacyMode === 'main'` tự động ẩn tên khách & nội dung trên màn hình khóa nếu chưa mở phiên OTP).
+- **Service Worker hiển thị thông báo & chạm mở thẳng hội thoại (`frontend/public/sw.js`, `MobileChatView.vue`, `use-desktop-notifications.ts`)**:
+  - Xử lý sự kiện `push` và `notificationclick`: hiển thị thông báo đẩy kèm logo Banana Chat trên màn hình khóa iPhone / Android ngay cả khi đã tắt màn hình hoặc vuốt đóng ứng dụng; bấm vào thông báo nhảy thẳng vào đúng cuộc trò chuyện `/chat/:convId`.
+- **Giao diện 1 chạm cho iPhone / Android & Nút bắn thử sau 3 giây (`MobileLayout.vue`, `PersonalAccountPage.vue`, `use-web-push.ts`)**:
+  - Tự nhận diện Safari iPhone/iPad: hướng dẫn 2 bước bấm **Chia sẻ ⬆️ → Thêm vào MH chính** khi đang mở bằng tab Safari thường, và hiện thanh bật nhanh 1 chạm ngay khi mở từ biểu tượng ngoài Màn hình chính.
+  - Bổ sung nút **`📲 Bắn thử sau 3 giây (Khóa máy để xem)`** để người dùng bấm thử, tắt màn hình iPhone và kiểm tra trực tiếp thông báo sáng lên trên màn hình khóa.
+
+---
+
 ## [1.1.4] - 2026-11-27
 
 ### Fixed & Added — Nâng cấp `Banana-Chat.exe` Chọn/Đổi Máy Chủ Đa Tên Miền + Icon Chuối Khay Đồng Hồ & Sửa Thanh Cửa Sổ PWA
