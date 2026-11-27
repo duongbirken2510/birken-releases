@@ -4,6 +4,22 @@ Các thay đổi đáng chú ý của **Banana Chat**. Theo [Semantic Versioning
 
 ---
 
+## [1.1.8] - 2026-11-27
+
+### Fixed & Added — Avatar Thật & Giải Mã 12 Loại JSON Trên Thông Báo + Tối Ưu Toàn Diện Chat Điện Thoại (Vuốt Quay Lại Kiểu Zalo, Đệm Tai Thỏ iPhone & Nút Tắt Mẫu Tin Nhắn)
+- **Hiển thị Avatar thật & Giải mã sạch 12 dạng tin nhắn JSON Zalo trên Thông báo Windows / iPhone (`toast.html`, `main.rs`, `use-desktop-notifications.ts`, `web-push-service.ts`)**:
+  - Ô tròn trên Popup thông báo góc màn hình Windows (`Banana-Chat.exe`) nay hiển thị **Avatar thật của khách hàng / nhóm chat** kèm huy hiệu Banana Chat nhỏ ở góc dưới (tự động hiện chữ cái đầu theo màu nếu chưa có ảnh, hoặc `🔒` với nick Riêng tư).
+  - Bóc tách sạch toàn bộ 12 dạng payload JSON của Zalo (`image` → `📷 Hình ảnh` / `🖼️ Bộ ảnh`, `file` → `📎 <Tên file>`, `sticker` → `🎴 Nhãn dán`, `video` → `🎥 Video`, `voice` → `🎤 Tin nhắn thoại`, `link` → `🔗 <Tiêu đề>`, `contact_card` → `👤 Danh thiếp`, `call` → `📞 Cuộc gọi`, `location` → `📍 Vị trí`, `bank_transfer` → `💳 Chuyển khoản`, `poll` / `reminder` / `rich`...), chấm dứt hoàn toàn hiện tượng lộ mã JSON `{"title":"","href":...}`.
+- **Nâng cấp độ tin cậy Web Push iPhone & Đệm tai thỏ Dynamic Island (`use-web-push.ts`, `sw.js`, `MobileLayout.vue`, `web-push-routes.ts`)**:
+  - Tự động gọi `registration.update()` và đối khớp khóa `VAPID` mỗi phiên làm việc để làm mới ngay Service Worker trên các máy iPhone đã lưu App từ bản cũ; mỗi tin nhắn dùng `tag` độc lập giúp màn hình khóa iPhone luôn sáng & báo chuông đầy đủ.
+  - Bổ sung khoảng đệm `env(safe-area-inset-top)` trên thanh tiêu đề Mobile để đồng hồ và cột pin iPhone không bao giờ đè lên logo hay nút bấm.
+- **Tối ưu giao diện Chat Điện thoại, Nút đóng Mẫu tin nhắn & Vuốt ngang quay lại kiểu Zalo (`MobileChatView.vue`, `MessageThread.vue`, `quick-template-popup.vue`, `use-mobile-swipe-back.ts`)**:
+  - Gộp gọn nút `← Quay lại` lên chung hàng tiêu đề hội thoại, đưa icon `😊 Emoji` lên dãy công cụ hàng trên (cuộn ngang 1 dòng gọn gàng) và mở rộng tối đa ô gõ tin nhắn ở hàng dưới.
+  - Bổ sung nút **`✕`** + chạm vùng ngoài tự đóng + bấm lại nút `⚡` để bật/tắt bảng **Mẫu tin nhắn** và **Emoji** trên điện thoại.
+  - Bổ sung cử chỉ **kéo từ trái sang phải (`Swipe-back`)** kèm hiệu ứng trượt & khóa góc thông minh để quay nhanh về danh sách hội thoại bằng 1 tay giống Zalo / Telegram.
+
+---
+
 ## [1.1.7] - 2026-11-27
 
 ### Added — Nút 1-Click "Tải App Máy tính (.exe)" trong Menu Cài đặt & Liên kết Tải Công Khai Tự Động Mới Nhất
