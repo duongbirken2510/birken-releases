@@ -1,7 +1,8 @@
 {
   "name": "Banana Chat",
-  "latest": "1.1.6",
-  "publishedAt": "2026-11-27T15:33:14.644Z",
-  "releaseUrl": "https://github.com/duongbirken2510/Banana-Chat/releases/tag/v1.1.6",
+  "latest": "1.1.7",
+  "publishedAt": "2026-11-27T15:50:02.100Z",
+  "releaseUrl": "https://github.com/duongbirken2510/birken-releases/releases/tag/banana-chat-latest",
+  "desktopDownloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/banana-chat-latest/Banana-Chat.exe",
   "releaseNotes": ""
 }
