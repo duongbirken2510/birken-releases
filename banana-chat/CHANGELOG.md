@@ -4,6 +4,17 @@ Các thay đổi đáng chú ý của **Banana Chat**. Theo [Semantic Versioning
 
 ---
 
+## [1.1.3] - 2026-11-27
+
+### Fixed & Added — Khóa cứng Thu phóng Khung Giao diện Điện thoại (Chuẩn Native App) & Zoom Ảnh Thông minh trong Lightbox
+- **Khóa cứng tỷ lệ giao diện Mobile `1:1` — Chặn thu phóng lệch khung (`index.html`, `main.css`, `use-mobile-zoom-lock.ts`)**:
+  - Cập nhật thẻ `viewport` (`minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content`), gắn `touch-action: manipulation` toàn cục và chặn cử chỉ pinch 2 ngón (`gesturestart` / multi-touch) trên iOS Safari 10+ để giao diện điện thoại mượt chắc như Zalo/Telegram App, không bao giờ bị trôi mất nút Gửi.
+  - Tự động đặt `font-size: 16px` trên màn hình cảm ứng (`<= 1024px`) cho ô soạn tin nhắn (`.tiptap-input`), ô tìm kiếm (`.cl-search`) và các thẻ `input / textarea / select` nhằm triệt tiêu hoàn toàn lỗi iPhone tự phóng to và kẹt màn hình khi mở bàn phím ảo (giao diện máy tính giữ nguyên không đổi).
+- **Ngoại lệ thu phóng thông minh trong Hộp xem ảnh Lightbox (`MessageThread.vue`)**: Hỗ trợ chụm 2 ngón, chạm đúp (`1x` ↔ `2.4x`), lăn chuột và kéo trượt xem chi tiết ảnh/hóa đơn khách gửi ngay trong Lightbox mà không làm lệch tỷ lệ ứng dụng bên ngoài; tự động trả về `100%` khi chuyển hoặc đóng ảnh.
+- **Đồng bộ thanh tiêu đề Mobile (`MobileLayout.vue`)**: Thay biểu tượng robot `CRM` cũ bằng bộ nhận diện **Banana Chat** kèm nút bật/tắt nhanh âm báo tin nhắn và nút làm mới trang.
+
+---
+
 ## [1.1.2] - 2026-11-25
 
 ### Fixed & Added — Hiệu ứng Nhân vật Banana Chat khi Tải tin cũ & Khóa cứng Vị trí Đọc (Chống Nhảy về Đáy)
