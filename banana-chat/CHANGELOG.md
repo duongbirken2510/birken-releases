@@ -4,6 +4,18 @@ Các thay đổi đáng chú ý của **Banana Chat**. Theo [Semantic Versioning
 
 ---
 
+## [1.1.4] - 2026-11-27
+
+### Fixed & Added — Nâng cấp `Banana-Chat.exe` Chọn/Đổi Máy Chủ Đa Tên Miền + Icon Chuối Khay Đồng Hồ & Sửa Thanh Cửa Sổ PWA
+- **`Banana-Chat.exe` hỗ trợ Chọn & Chuyển đổi Máy chủ đa tên miền (`desktop/src-tauri/src/main.rs`, `desktop/ui/index.html`, `LoginView.vue`)**:
+  - **Lần đầu mở dừng lại cho chọn Server**: Không tự động nhảy vội vào `localhost:7776` khi chưa thiết lập; người dùng dễ dàng chọn `https://chat.deta.vn`, `http://localhost:7776` hoặc nhập bất kỳ tên miền Server riêng nào của doanh nghiệp (lưu bền trong `%APPDATA%\vn.banana.chat.crm\desktop-prefs.json`, từ lần thứ 2 tự động vào thẳng).
+  - **Đổi máy chủ 1-Click mọi lúc**: Bổ sung mục **`🌐 Đổi máy chủ kết nối...`** ngay trong menu chuột phải của Icon cạnh đồng hồ Windows và nút **`🌐 Đổi máy chủ kết nối`** dưới chân màn hình Đăng nhập Desktop.
+  - **Đồng bộ Icon Trái Chuối thật trên Khay đồng hồ & Góc cửa sổ**: Nhúng trực tiếp ảnh RGBA `32x32` từ logo **Banana Bubble** vào `Banana-Chat.exe` kèm chấm đỏ báo tin chưa đọc sắc nét.
+- **Xử lý dứt điểm cụm nút cửa sổ xanh lá `⋯ — □ ✕` đè lên menu ở chế độ Web App PWA (`manifest.json`, `index.html`, `DefaultLayout.vue`)**:
+  - Gỡ bỏ `window-controls-overlay` trong `manifest.json` để thanh tiêu đề cửa sổ nằm tách biệt phía trên, đồng thời đổi `theme_color` sang màu tối `#0e0e16` đồng bộ thanh điều hướng và thêm CSS bảo vệ khoảng đệm phải cho các máy đã cài PWA từ bản cũ (không bao giờ che nút Chuông, Loa và Avatar).
+
+---
+
 ## [1.1.3] - 2026-11-27
 
 ### Fixed & Added — Khóa cứng Thu phóng Khung Giao diện Điện thoại (Chuẩn Native App) & Zoom Ảnh Thông minh trong Lightbox
