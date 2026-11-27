@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "https://github.com/duongbirken2510/birken-releases",
-  "updatedAt": "2026-11-26T17:53:56.817Z",
+  "updatedAt": "2026-11-27T14:58:04.957Z",
   "apps": {
     "ai-livestream": {
       "appCode": "ai-livestream",
@@ -93,6 +93,21 @@
       "requiresFullInstaller": false,
       "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click Năm Châu Bốn Bể 3D (249.2 MB · Port 4017 · Miễn Phí 0đ · Quả Địa Cầu Vệ Tinh Google Earth · 195 Quốc Gia & Mọi Thành Phố · 644 MP3 Offline + System Tray Guardian v2).",
       "updatedAt": "2026-11-26T17:53:56.817Z"
+    },
+    "dem-ke-chuyen-ma": {
+      "appCode": "dem-ke-chuyen-ma",
+      "appName": "Đêm Kể Chuyện Ma 3D Pro",
+      "tier": "PRO_99K",
+      "latestVersion": "1.0.0",
+      "releaseDate": "2026-11-27",
+      "tag": "truyenma-v1.0.0",
+      "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/truyenma-v1.0.0/Dem-Ke-Chuyen-Ma-3D-Setup-v1.0.0.exe",
+      "patchUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/truyenma-v1.0.0/truyenma-patch-v1.0.0.zip",
+      "patchSha256": "8d4f6f47b6a67e83941a6da3a23bb7d860009e61132f07916cf9220f0e95d763",
+      "patchSizeBytes": 16442635,
+      "requiresFullInstaller": false,
+      "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click Đêm Kể Chuyện Ma 3D Pro (119.1 MB · Port 4024 · Bà Cụ 2.5D nhép môi, 100 ghế vòng cung xin ngồi, 20+ truyện ma nhiều chương, 5 nhạc nền + 11 hiệu ứng ma kêu, điểm giờ Âm lịch Can-Chi & VietQR SePay 99K).",
+      "updatedAt": "2026-11-27T14:58:04.957Z"
     }
   },
   "ai-livestream": {
@@ -185,5 +200,20 @@
     "requiresFullInstaller": false,
     "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click Năm Châu Bốn Bể 3D (249.2 MB · Port 4017 · Miễn Phí 0đ · Quả Địa Cầu Vệ Tinh Google Earth · 195 Quốc Gia & Mọi Thành Phố · 644 MP3 Offline + System Tray Guardian v2).",
     "updatedAt": "2026-11-26T17:53:56.817Z"
+  },
+  "dem-ke-chuyen-ma": {
+    "appCode": "dem-ke-chuyen-ma",
+    "appName": "Đêm Kể Chuyện Ma 3D Pro",
+    "tier": "PRO_99K",
+    "latestVersion": "1.0.0",
+    "releaseDate": "2026-11-27",
+    "tag": "truyenma-v1.0.0",
+    "downloadUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/truyenma-v1.0.0/Dem-Ke-Chuyen-Ma-3D-Setup-v1.0.0.exe",
+    "patchUrl": "https://github.com/duongbirken2510/birken-releases/releases/download/truyenma-v1.0.0/truyenma-patch-v1.0.0.zip",
+    "patchSha256": "8d4f6f47b6a67e83941a6da3a23bb7d860009e61132f07916cf9220f0e95d763",
+    "patchSizeBytes": 16442635,
+    "requiresFullInstaller": false,
+    "releaseNotes": "Phiên bản v1.0.0: Bộ cài đặt Windows 1-Click Đêm Kể Chuyện Ma 3D Pro (119.1 MB · Port 4024 · Bà Cụ 2.5D nhép môi, 100 ghế vòng cung xin ngồi, 20+ truyện ma nhiều chương, 5 nhạc nền + 11 hiệu ứng ma kêu, điểm giờ Âm lịch Can-Chi & VietQR SePay 99K).",
+    "updatedAt": "2026-11-27T14:58:04.957Z"
   }
 }
