@@ -4,6 +4,16 @@ Các thay đổi đáng chú ý của **Banana Chat**. Theo [Semantic Versioning
 
 ---
 
+## [1.1.7] - 2026-11-27
+
+### Added — Nút 1-Click "Tải App Máy tính (.exe)" trong Menu Cài đặt & Liên kết Tải Công Khai Tự Động Mới Nhất
+- **Tích hợp nút `⬇ Tải App Máy tính (.exe)` ngay trên giao diện Web (`DefaultLayout.vue`, `SettingsLayout.vue`, `SystemUpdatePage.vue`, `PersonalAccountPage.vue`)**:
+  - Xuất hiện trực tiếp trong menu thả xuống **`⚙ Cài đặt`** trên thanh điều hướng trên cùng (mọi nhân viên Sale và Quản trị viên đều tải được 1-Click), ở chân cột trái trang **Cài đặt**, trong trang **Tài khoản của tôi** và trang **Phiên bản & Cập nhật hệ thống**; tự động ẩn gọn khi người dùng đã đang mở bên trong `Banana-Chat.exe`.
+- **Tự động phát hành bản cài đặt mới nhất lên kho GitHub Công khai (`scripts/publish-release-feed.mjs`)**:
+  - Tự động đẩy và cập nhật file `Banana-Chat.exe` mới nhất lên đường dẫn cố định `https://github.com/duongbirken2510/birken-releases/releases/download/banana-chat-latest/Banana-Chat.exe` — giúp người dùng ở bất kỳ máy chủ nào bấm tải luôn nhận đúng phiên bản `.exe` mới nhất mà không cần tài khoản GitHub và vẫn bảo mật 100% mã nguồn kho riêng tư.
+
+---
+
 ## [1.1.6] - 2026-11-27
 
 ### Fixed — Khắc phục lỗi bấm nút "Lưu & Kết nối" trên màn hình Chọn Máy Chủ `Banana-Chat.exe`
