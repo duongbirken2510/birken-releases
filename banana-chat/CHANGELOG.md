@@ -4,6 +4,15 @@ Các thay đổi đáng chú ý của **Banana Chat**. Theo [Semantic Versioning
 
 ---
 
+## [1.1.6] - 2026-11-27
+
+### Fixed — Khắc phục lỗi bấm nút "Lưu & Kết nối" trên màn hình Chọn Máy Chủ `Banana-Chat.exe`
+- **Sửa lỗi CSP & ACL Tauri v2 chặn sự kiện bấm nút trên `Banana-Chat.exe` (`desktop/ui/index.html`, `desktop/ui/toast.html`, `desktop/src-tauri/build.rs`, `capabilities/default.json`, `tauri.conf.json`, `main.rs`)**:
+  - Chuyển toàn bộ các nút `Lưu & Kết nối`, chọn nhanh `🌐 chat.deta.vn` / `⚡ Local (:7776)` và thẻ thông báo Popup sang `addEventListener` chuẩn DOM kèm bật `dangerousDisableAssetCspModification` (khắc phục triệt để việc Tauri v2 tự chèn hash `sha256-...` làm vô hiệu hóa `onclick` inline trên WebView2).
+  - Bổ sung đầy đủ quyền ACL (`allow-connect-to-server`, `allow-set-server-url`, `allow-open-server-picker`) và lệnh điều hướng trực tiếp từ nhân Rust (`connect_to_server`) giúp bấm `Lưu & Kết nối` vào thẳng `https://chat.deta.vn` ngay lập tức (không phụ thuộc phiên bản hiện tại của máy chủ).
+
+---
+
 ## [1.1.5] - 2026-11-27
 
 ### Added — Thông báo Đẩy Màn hình khóa iPhone (iOS 16.4+) / Android / Web Push (`VAPID`) 100% Miễn phí
